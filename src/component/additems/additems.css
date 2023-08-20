@@ -1,0 +1,52 @@
+.form {
+  background-color: #eee;
+  padding: 50px;
+  display: flex;
+  margin: 50px auto;
+  border-radius: 15px;
+  width: 300px;
+  height: fit-content;
+  justify-content: space-around;
+  align-items: center;
+}
+.tasks {
+  width: 500px;
+  min-height: 153px;
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 20px;
+}
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  height: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+.task span {
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+}
+.add {
+  padding: 10px;
+  background-color: darkorange;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+.input {
+  border: 0;
+  padding: 10px 0px;
+  margin: auto 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 5px;
+  outline: orange !important;
+}
